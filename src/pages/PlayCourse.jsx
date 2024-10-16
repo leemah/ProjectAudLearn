@@ -78,7 +78,7 @@ const PlayCourse = () => {
             src={videos.mainVideo}
             controls
           />
-          <div className="absolute top-0 left-0 w-1/4 h-1/4 p-1">
+          <div className="absolute top-0 left-0 w-1/2 h-1/2 p-1">
             <video
               className="w-full h-full object-cover rounded-md"
               src={videos.overlayVideo}
