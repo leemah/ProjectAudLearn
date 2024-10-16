@@ -10,9 +10,9 @@ const CoursesAllPage = () => {
     // Fetch all courses from the API
     const fetchCourses = async () => {
       try {
-        const response = await fetch("http://localhost:3000/courses");
+        const response = await fetch("/db.json");
         const data = await response.json();
-        setCourses(data);
+        setCourses(data.courses);
       } catch (error) {
         console.error("Error fetching courses:", error);
       }

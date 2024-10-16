@@ -6,13 +6,18 @@ const CourseList = () => {
   const navigate = useNavigate(); // useNavigate hook for navigation
 
   useEffect(() => {
-    // Fetching data from db.json
+    // Fetching data from db.json located in the public folder
     const fetchCourses = async () => {
       try {
-        const response = await fetch("http://localhost:3000/courses");
+        const response = await fetch("/db.json");
         const data = await response.json();
-        // Set only the first 3 courses
-        setCourses(data.slice(0, 3));
+
+        if (data.courses) {
+          // Set only the first 3 courses from the 'courses' array
+          setCourses(data.courses.slice(0, 3));
+        } else {
+          console.error("Courses not found in the response data.");
+        }
       } catch (error) {
         console.error("Error fetching course data:", error);
       }
