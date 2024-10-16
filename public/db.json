@@ -1,0 +1,372 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "profileImage": "/assets/profile1.jpg",
+      "courseImage": "/assets/webDevelopment.jpg",
+      "courseTitle": "A Complete 2021 Web Development BootCamp",
+      "subtitle": "Full-Stack Web Development",
+      "videos": {
+        "mainVideo": "/videos/SpeechtoSignLanguageTranslator.mp4",
+        "overlayVideo": "/videos/Full-stackWebDevelopment.mp4"
+      },
+      "userName": "Tosin Oloyede",
+      "level": "Advanced",
+      "rating": 5.0,
+      "price": 20.0,
+      "overview": "Lorem ipsum dolor sit amet...",
+      "language": "English",
+      "lastUpdated": "Feb 2022",
+      "students": 10000,
+      "whatYouWillLearn": [
+        "HTML, CSS, JavaScript",
+        "Full-Stack Development",
+        "Working with Databases"
+      ],
+      "requirements": [
+        "Basic understanding of programming",
+        "Computer with internet access"
+      ],
+      "instructor": {
+        "name": "Dr. Oladunji",
+        "profileImage": "/assets/instructor1.jpg",
+        "courses": 15,
+        "title": "Founder, Tech Hub",
+        "bio": "Dr. Oladunji is a renowned web development expert..."
+      },
+      "outline": [
+        { "title": "Intro to Web Development", "completed": true },
+        { "title": "HTML Basics", "completed": true },
+        { "title": "CSS Styling", "completed": false },
+        { "title": "JavaScript Functions", "completed": false }
+      ],
+      "reviews": [
+        {
+          "reviewer": "John Doe",
+          "rating": 5,
+          "comment": "Great course!"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "profileImage": "/assets/profile2.jpg",
+      "courseImage": "/assets/datasciencewithpython.jpg",
+      "courseTitle": "Mastering Data Science with Python",
+      "subtitle": "Python and Machine Learning",
+      "videos": {
+        "mainVideo": "https://www.example.com/datascience_mainVideo.mp4",
+        "overlayVideo": "https://www.example.com/datascience_overlayVideo.mp4"
+      },
+      "userName": "Emily Johnson",
+      "level": "Intermediate",
+      "rating": 4.7,
+      "price": 15.0,
+      "overview": "Learn data science with Python...",
+      "language": "English",
+      "lastUpdated": "Jan 2023",
+      "students": 8000,
+      "whatYouWillLearn": [
+        "Python for Data Science",
+        "Data Analysis with Pandas",
+        "Building Machine Learning Models"
+      ],
+      "requirements": [
+        "Basic Python knowledge",
+        "Access to a computer with Python installed"
+      ],
+      "instructor": {
+        "name": "Emily Johnson",
+        "profileImage": "/assets/instructor2.jpg",
+        "courses": 10,
+        "title": "Data Scientist, TechX",
+        "bio": "Emily Johnson is an experienced data scientist..."
+      },
+      "outline": [
+        { "title": "Intro to Data Science", "completed": true },
+        { "title": "Python Basics", "completed": true },
+        { "title": "Pandas for Data Analysis", "completed": false },
+        { "title": "Machine Learning Algorithms", "completed": false }
+      ],
+      "reviews": [
+        {
+          "reviewer": "Jane Smith",
+          "rating": 4.7,
+          "comment": "Very informative and detailed."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "profileImage": "/assets/profile3.jpg",
+      "courseImage": "/assets/digitalmarketing.jpg",
+      "courseTitle": "Digital Marketing for Beginners",
+      "subtitle": "Marketing Fundamentals",
+      "videos": {
+        "mainVideo": "https://www.example.com/marketing_mainVideo.mp4",
+        "overlayVideo": "https://www.example.com/marketing_overlayVideo.mp4"
+      },
+      "userName": "Michael Brown",
+      "level": "Beginner",
+      "rating": 4.8,
+      "price": 12.0,
+      "overview": "A beginner's guide to digital marketing...",
+      "language": "English",
+      "lastUpdated": "March 2022",
+      "students": 5000,
+      "whatYouWillLearn": [
+        "SEO Basics",
+        "Social Media Marketing",
+        "Google Ads"
+      ],
+      "requirements": [
+        "Basic understanding of marketing concepts",
+        "Computer with internet access"
+      ],
+      "instructor": {
+        "name": "Michael Brown",
+        "profileImage": "/assets/instructor3.jpg",
+        "courses": 5,
+        "title": "Marketing Consultant",
+        "bio": "Michael Brown has helped companies scale..."
+      },
+      "outline": [
+        { "title": "Intro to Digital Marketing", "completed": true },
+        { "title": "SEO Basics", "completed": false },
+        { "title": "Social Media Campaigns", "completed": false },
+        { "title": "Google Ads for Beginners", "completed": false }
+      ],
+      "reviews": [
+        {
+          "reviewer": "Alex Johnson",
+          "rating": 4.8,
+          "comment": "Very clear and helpful for beginners."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "profileImage": "/assets/profile4.jpg",
+      "courseImage": "/assets/graphicDesign.jpg",
+      "courseTitle": "Advanced Graphic Design with Adobe Illustrator",
+      "subtitle": "Mastering Illustrator",
+      "videos": {
+        "mainVideo": "https://www.example.com/design_mainVideo.mp4",
+        "overlayVideo": "https://www.example.com/design_overlayVideo.mp4"
+      },
+      "userName": "Sarah Lee",
+      "level": "Advanced",
+      "rating": 5.0,
+      "price": 25.0,
+      "overview": "Master Adobe Illustrator and design techniques...",
+      "language": "English",
+      "lastUpdated": "May 2022",
+      "students": 6000,
+      "whatYouWillLearn": [
+        "Advanced Illustrator Techniques",
+        "Logo Design",
+        "Typography Mastery"
+      ],
+      "requirements": [
+        "Basic graphic design knowledge",
+        "Adobe Illustrator software"
+      ],
+      "instructor": {
+        "name": "Sarah Lee",
+        "profileImage": "/assets/instructor4.jpg",
+        "courses": 12,
+        "title": "Graphic Design Expert",
+        "bio": "Sarah Lee is an award-winning graphic designer..."
+      },
+      "outline": [
+        { "title": "Intro to Illustrator", "completed": true },
+        { "title": "Logo Design Principles", "completed": false },
+        { "title": "Typography Essentials", "completed": false },
+        { "title": "Designing for Print", "completed": true }
+      ],
+      "reviews": [
+        {
+          "reviewer": "Jessica Smith",
+          "rating": 5.0,
+          "comment": "Best graphic design course I've taken!"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "profileImage": "/assets/profile5.jpg",
+      "courseImage": "/assets/cyberSecurity.jpg",
+      "courseTitle": "Cyber Security Essentials",
+      "subtitle": "Fundamentals of Cybersecurity",
+      "videos": {
+        "mainVideo": "https://www.example.com/cybersecurity_mainVideo.mp4",
+        "overlayVideo": "https://www.example.com/cybersecurity_overlayVideo.mp4"
+      },
+      "userName": "James Anderson",
+      "level": "Beginner",
+      "rating": 4.9,
+      "price": 18.0,
+      "overview": "Learn the fundamentals of cybersecurity...",
+      "language": "English",
+      "lastUpdated": "July 2022",
+      "students": 4000,
+      "whatYouWillLearn": [
+        "Cybersecurity Basics",
+        "Ethical Hacking",
+        "Threat Detection"
+      ],
+      "requirements": ["Basic computer skills", "Interest in cybersecurity"],
+      "instructor": {
+        "name": "James Anderson",
+        "profileImage": "/assets/instructor5.jpg",
+        "courses": 7,
+        "title": "Cybersecurity Specialist",
+        "bio": "James Anderson is a cybersecurity expert with 10+ years of experience..."
+      },
+      "outline": [
+        { "title": "Intro to Cybersecurity", "completed": true },
+        { "title": "Ethical Hacking Basics", "completed": false },
+        { "title": "Cybersecurity Threats", "completed": true },
+        { "title": "Incident Response", "completed": false }
+      ],
+      "reviews": [
+        {
+          "reviewer": "Ryan Evans",
+          "rating": 4.9,
+          "comment": "Very detailed and engaging."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "profileImage": "/assets/profile6.jpg",
+      "courseImage": "/assets/projectManagement.jpg",
+      "courseTitle": "Project Management Professional Certification Prep",
+      "subtitle": "PMP Exam Preparation",
+      "videos": {
+        "mainVideo": "https://www.example.com/pm_mainVideo.mp4",
+        "overlayVideo": "https://www.example.com/pm_overlayVideo.mp4"
+      },
+      "userName": "Rachel Green",
+      "level": "Intermediate",
+      "rating": 4.6,
+      "price": 22.0,
+      "overview": "Prepare for PMP certification...",
+      "language": "English",
+      "lastUpdated": "April 2023",
+      "students": 3500,
+      "whatYouWillLearn": [
+        "Project Management Essentials",
+        "PMBOK Guide Framework",
+        "PMP Exam Preparation"
+      ],
+      "requirements": ["Project management experience", "PMBOK guidebook"],
+      "instructor": {
+        "name": "Rachel Green",
+        "profileImage": "/assets/instructor6.jpg",
+        "courses": 5,
+        "title": "Certified PMP",
+        "bio": "Rachel Green is a certified PMP with years of industry experience..."
+      },
+      "outline": [
+        { "title": "Project Management Framework", "completed": true },
+        { "title": "Process Groups and Knowledge Areas", "completed": false },
+        { "title": "Project Integration Management", "completed": false },
+        { "title": "PMP Exam Tips", "completed": true }
+      ]
+    },
+    {
+      "id": 7,
+      "profileImage": "/assets/profile7.jpg",
+      "courseImage": "/assets/blockchain.jpg",
+      "courseTitle": "Blockchain Development Essentials",
+      "subtitle": "Understanding Blockchain",
+      "videos": {
+        "mainVideo": "https://www.example.com/blockchain_mainVideo.mp4",
+        "overlayVideo": "https://www.example.com/blockchain_overlayVideo.mp4"
+      },
+      "userName": "Nina White",
+      "level": "Advanced",
+      "rating": 4.9,
+      "price": 30.0,
+      "overview": "Master blockchain development techniques...",
+      "language": "English",
+      "lastUpdated": "Sept 2022",
+      "students": 3000,
+      "whatYouWillLearn": [
+        "Blockchain Fundamentals",
+        "Smart Contracts",
+        "Building Decentralized Applications (DApps)"
+      ],
+      "requirements": [
+        "Programming experience",
+        "Interest in blockchain technology"
+      ],
+      "instructor": {
+        "name": "Nina White",
+        "profileImage": "/assets/instructor7.jpg",
+        "courses": 8,
+        "title": "Blockchain Developer",
+        "bio": "Nina White is a blockchain expert with a background in decentralized technologies..."
+      },
+      "outline": [
+        { "title": "Intro to Blockchain", "completed": true },
+        { "title": "Smart Contracts", "completed": false },
+        { "title": "Building DApps", "completed": false },
+        { "title": "Security in Blockchain", "completed": true }
+      ],
+      "reviews": [
+        {
+          "reviewer": "Adam Brooks",
+          "rating": 4.9,
+          "comment": "Comprehensive and well-structured course."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "profileImage": "/assets/profile8.jpg",
+      "courseImage": "/assets/ai.jpg",
+      "courseTitle": "Introduction to Artificial Intelligence",
+      "subtitle": "AI Fundamentals",
+      "videos": {
+        "mainVideo": "https://www.example.com/ai_mainVideo.mp4",
+        "overlayVideo": "https://www.example.com/ai_overlayVideo.mp4"
+      },
+      "userName": "Oliver Scott",
+      "level": "Beginner",
+      "rating": 4.5,
+      "price": 16.0,
+      "overview": "Learn the basics of AI and its applications...",
+      "language": "English",
+      "lastUpdated": "Oct 2023",
+      "students": 2500,
+      "whatYouWillLearn": [
+        "Artificial Intelligence Basics",
+        "Machine Learning Overview",
+        "AI Applications"
+      ],
+      "requirements": ["Basic programming knowledge", "Interest in AI"],
+      "instructor": {
+        "name": "Oliver Scott",
+        "profileImage": "/assets/instructor8.jpg",
+        "courses": 6,
+        "title": "AI Researcher",
+        "bio": "Oliver Scott has a PhD in AI and works as a researcher in the field of artificial intelligence..."
+      },
+      "outline": [
+        { "title": "Introduction to AI", "completed": true },
+        { "title": "Machine Learning Concepts", "completed": false },
+        { "title": "AI Applications", "completed": true },
+        { "title": "Future of AI", "completed": false }
+      ],
+      "reviews": [
+        {
+          "reviewer": "David Moore",
+          "rating": 4.5,
+          "comment": "Good introduction to AI, well-explained."
+        }
+      ]
+    }
+  ]
+}
