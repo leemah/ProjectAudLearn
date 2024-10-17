@@ -39,7 +39,7 @@ export const loginUser = async (email, password) => {
 
     return { user, role };
   } catch (error) {
-    console.error("Error during login:", error.message); // Add better error logging
+   
     throw error; // Re-throw to propagate the error up
   }
 };

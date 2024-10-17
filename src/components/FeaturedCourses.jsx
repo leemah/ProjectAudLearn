@@ -6,20 +6,6 @@ const FeaturedCourses = () => {
   const [courses, setCourses] = useState([]);
   const navigate = useNavigate(); // Hook for navigation
 
-  // useEffect(() => {
-  //   // Fetch courses from mock API
-  //   const fetchCourses = async () => {
-  //     try {
-  //       const response = await fetch("/db.json");
-  //       const data = await response.json();
-  //       setCourses(data);
-  //     } catch (error) {
-  //       console.error("Error fetching courses:", error);
-  //     }
-  //   };
-
-  //   fetchCourses();
-  // }, []);
   useEffect(() => {
     const fetchCourses = async () => {
       try {

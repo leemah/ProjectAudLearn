@@ -27,12 +27,13 @@ const SignUp = ({ userType }) => {
       const resultAction = await dispatch(
         signUp({ fullname, email, password, role: userType })
       ).unwrap();
+      console.log(resultAction);
 
       // Depending on userType, navigate to the appropriate dashboard
       if (resultAction.role === "instructor") {
         navigate("/instructordashboard/intended-learners");
       } else {
-        navigate("/dashboard");
+        navigate("/login");
       }
     } catch (err) {
       setError(err || "An error occurred during sign-up.");
@@ -83,6 +84,7 @@ const SignUp = ({ userType }) => {
           />
         </div>
         <button
+          onClick={handleSubmit}
           type="submit"
           className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-full w-full transition duration-300 ease-in-out"
         >

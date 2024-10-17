@@ -5,7 +5,7 @@ const Testimonials = () => {
   const [currentTestimonial, setCurrentTestimonial] = useState(0);
 
   useEffect(() => {
-    // Fetch testimonials from API
+    // Fetching testimonials from API
     const fetchTestimonials = async () => {
       try {
         const response = await fetch(

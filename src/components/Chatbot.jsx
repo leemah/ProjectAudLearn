@@ -6,17 +6,6 @@ const Chatbot = () => {
     <div className=" right-8">
       {/* Chatbot Box */}
       <div className="bg-white shadow-lg rounded-lg p-4 relative w-[280px] h-auto flex flex-col items-center">
-        {/* Close Button */}
-        <button
-          className="absolute top-2 left-2 text-gray-500"
-          onClick={() => {
-            // You can add functionality here to close the chatbot or leave it static
-            console.log("Close Chat Clicked");
-          }}
-        >
-          <FiX size={24} />
-        </button>
-
         <div className="text-center">
           <p className="text-[#633EA3] text-2xl font-bold mb-2">
             Talk to Bobo, our chatbot
@@ -36,7 +25,6 @@ const Chatbot = () => {
 
         {/* Avatar */}
         <div className="flex justify-center mt-4">
-          {/* You can replace this emoji with an actual avatar image */}
           <span className="text-6xl">👨🏽‍🦱</span>
         </div>
       </div>

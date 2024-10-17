@@ -3,9 +3,6 @@ import {
   RouterProvider,
   Navigate,
 } from "react-router-dom";
-// import { PersistGate } from "redux-persist/integration/react";
-// import { Provider } from "react-redux";
-// import store, { persistor } from "./redux/store"; // Import store and persistor
 import LandingLayout from "./Applayout/LandingLayout";
 import Home from "./pages/Home";
 import InstructorLanding from "./pages/InstructorLanding";
@@ -72,8 +69,8 @@ const App = () => {
       ],
     },
     {
-      path: "/signup", // Redirect to /login/signup, prevent redundant route
-      element: <AuthLayout />, // Ensure it's wrapped in AuthLayout
+      path: "/signup", // Redirect to /login/signup
+      element: <AuthLayout />,
       children: [
         {
           index: true,

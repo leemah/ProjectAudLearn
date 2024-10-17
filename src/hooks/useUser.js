@@ -3,7 +3,6 @@ import { useSelector, useDispatch } from "react-redux";
 
 const useUser = () => {
   const user = useSelector((state) => state.auth.user);
-  console.log("current user is", user);
 
   // const dispatch = useDispatch();
 

@@ -7,7 +7,7 @@ export const signUp = createAsyncThunk(
   async ({ email, password, role }, { rejectWithValue }) => {
     try {
       await signUpUser(email, password, role);
-      return { email, role }; // Pass full user object if needed
+      return { email, role };
     } catch (error) {
       return rejectWithValue(error.message);
     }
@@ -19,7 +19,7 @@ export const login = createAsyncThunk(
   async ({ email, password }, thunkAPI) => {
     try {
       const response = await loginUser(email, password);
-      return { user: response.user, role: response.role }; // Return user data on successful login
+      return { user: response.user, role: response.role };
     } catch (error) {
       return thunkAPI.rejectWithValue(error.response.data);
     }
@@ -57,7 +57,7 @@ const authSlice = createSlice({
       })
       .addCase(signUp.rejected, (state, action) => {
         state.loading = false;
-        state.error = action.payload; // Capture the error message
+        state.error = action.payload; 
       })
 
       // Login
@@ -72,7 +72,7 @@ const authSlice = createSlice({
       })
       .addCase(login.rejected, (state, action) => {
         state.loading = false;
-        state.error = action.payload; // Capture the error message
+        state.error = action.payload;
       })
 
       // Logout
